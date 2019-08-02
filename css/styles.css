@@ -7,11 +7,12 @@
 
 
 .logo{
-    top:50%;
-    left:25%;
+    top:10%;
+    left:0%;
     position:absolute;
     border-radius:70%;
     position:absolute;
+    width: 40%;
 }
 
 
@@ -26,6 +27,7 @@
     background-size:20px;
     border-radius: 8px;
     font-style: oblique;
+    text-decoration:none;
 }
 
 #vid a{
@@ -38,6 +40,7 @@
     font-size: 25px;
     border-radius: 8px;
     font-style:oblique; 
+    text-decoration:none;
 
 } 
 
@@ -46,7 +49,6 @@
     height:auto;
     text-align: center;
     top:89%;
-    margin-bottom:0px;
   }
   
 .fa:hover {
