@@ -1,7 +1,7 @@
 #La Casa De Pizza-project
 #by Naice Uwitonze
 ##Description
-Delani Studio project is an independent project where one is required to use skills required,mainly bootstrap,javascript,html and css..Redo the project that it looks like the original one
+La casa de pizza project is an independent project where one is required to use skills required,mainly bootstrap,javascript,html and css and more techniques acquired from JQuery.Create a web application that helps customers acquire their pizzas online having to go to the house of the pizza in person. they place their orders and get a summary of what they asked for and then require for a delivery.
 
 Setup/Installation Requirements
 Github Terminal Visual Code
