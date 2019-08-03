@@ -1,4 +1,50 @@
-.ones{
-    border-radius:30%;
-    
+html{
+    background: url
+}
+
+.container{
+    display:none;
+}
+
+#logo{
+    top:10%;
+    left:5%;
+    position:absolute;
+    width: 60%;
+}
+
+.fa:hover {
+    opacity: 0.10;
+  }
+
+.fa-facebook {
+  top: 80%;
+  left:1%;
+  color:white;
+  position:absolute;
+  text-decoration: none;
+  width:50px;
+  }
+  
+.fa-twitter {
+  top: 80%;
+  left:8%;
+  color:white;
+  position:absolute;
+  text-decoration: none;
+  width:50px;
+}
+
+.fa-instagram{
+  top: 80%;
+  left:16%;
+  color:white;
+  position:absolute;
+  text-decoration: none;
+  width:50px;
+  height:20px;
+}
+
+.container{
+  display:none;
 }

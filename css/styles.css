@@ -5,12 +5,11 @@
       }
 
 
-
 .logo{
     top:0%;
-    left:-30%;
+    left:10%;
     position:absolute;
-    width: 100%;
+    width: 40px;
     color:black;
 }
 
@@ -25,7 +24,7 @@
     font-size: 30px;
     background-size:40px;
     border-radius: 8px;
-    font-style: oblique;
+    font-style: normal;
     text-decoration:none;
 }
 
@@ -34,15 +33,15 @@
     left:20%;
     position:absolute;
     background-color:red;
-    background-size:40px;
     font-size: 30px;
     border-radius: 8px;
     font-style:oblique; 
     text-decoration:none;
-    color: black;
+    color: black;  
 
-} 
- 
+}
+
+
 .fa:hover {
     opacity: 0.10;
   }
@@ -53,25 +52,26 @@
   color:white;
   position:absolute;
   text-decoration: none;
-  width:30%;
+  width:50px;
   }
   
 .fa-twitter {
-  top: 80%;
-  left:4%;
-  color:white;
-  position:absolute;
-  text-decoration: none;
-  width:30%;
-}
-
-.fa-instagram{
   top: 80%;
   left:8%;
   color:white;
   position:absolute;
   text-decoration: none;
-  width:30%;
+  width:50px;
+}
+
+.fa-instagram{
+  top: 80%;
+  left:16%;
+  color:white;
+  position:absolute;
+  text-decoration: none;
+  width:50px;
+  height:20px;
 }
 
 .container{
