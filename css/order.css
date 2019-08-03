@@ -1,20 +1,21 @@
-#ord{
+html{
+    height:500;
+
+}
+
+#logo{
     top:10%;
     left:5%;
     position:absolute;
     width: 60%;
-    color:black;
 }
 
-#one{
-    border-color: red;
-    background-color:black;
-    color:white;
+center{
+    top:80%;
     left:30%;
-
+    position:absolute;
 }
-
 button{
     background-color: red;
-    color:black;
+    color:white;
 }
