@@ -1,5 +1,5 @@
 html{
-    height:500;
+    height:100px;
 
 }
 
@@ -11,11 +11,37 @@ html{
 }
 
 center{
-    top:80%;
-    left:30%;
+    top:100%;
+    left:5%;
     position:absolute;
 }
 button{
-    background-color: red;
+    background-color: black;
     color:white;
+    border-radius: 8px;
+    border-width: 20px;
+    width:200px;
+    height:90px;
+   
+
 }
+
+legend{
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: normal;
+}
+label{
+    color:white;
+    font-size:22px;
+    font-style: normal;
+}
+
+select{
+    width:500px;
+    height:25px;
+}
+
+.container{
+    display:none;
+  }
