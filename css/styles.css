@@ -7,70 +7,71 @@
 
 
 .logo{
-    top:10%;
-    left:0%;
+    top:0%;
+    left:-10%;
     position:absolute;
-    border-radius:70%;
-    position:absolute;
-    width: 40%;
+    width: 60%;
+    color:black;
 }
 
 
 
 #ord a{
-    top: 70%;
-    left:30%;
-    color:white;
+    top: 60%;
+    left:1%;
+    color:red;
     position:absolute;
     background-color:black;
     font-size: 30px;
-    background-size:20px;
+    background-size:40px;
     border-radius: 8px;
     font-style: oblique;
     text-decoration:none;
 }
 
 #vid a{
-    top: 80%;
-    left:30%;
-    color:black;
+    top: 60%;
+    left:20%;
     position:absolute;
-    background-color:white;
-    background-size:30px;
-    font-size: 25px;
+    background-color:red;
+    background-size:40px;
+    font-size: 30px;
     border-radius: 8px;
     font-style:oblique; 
     text-decoration:none;
+    color: black;
 
 } 
-
-.social {
-    font-size: 30px;
-    height:auto;
-    text-align: center;
-    top:89%;
-  }
-  
+ 
 .fa:hover {
     opacity: 0.10;
   }
 
 .fa-facebook {
-    color: black;
-    position:absolute;
-    left:29%;
+  top: 80%;
+  left:1%;
+  color:white;
+  position:absolute;
+  text-decoration: none;
+  width:30%;
   }
   
 .fa-twitter {
-   position :absolute;
-   left:30%;
-   color: black;
-  }
+  top: 80%;
+  left:4%;
+  color:white;
+  position:absolute;
+  text-decoration: none;
+  width:30%;
+}
 
 .fa-instagram{
-  position :absolute;
-  left:28%;
-  color: black;
+  top: 80%;
+  left:8%;
+  color:white;
+  position:absolute;
+  text-decoration: none;
+  width:30%;
 }
 
 .container{
