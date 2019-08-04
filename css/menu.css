@@ -46,5 +46,22 @@ html{
 }
 
 .container{
-  display:none;
+  top:10%;
+  left:20%;
+  position:absolute;
+  background-color: white;
+}
+.ones{
+color:white;
+font-size:20px;
+}
+
+.twos{
+  color:white;
+  font-size:20px;
+}
+
+.threes{
+  color:white;
+  font-size: 20px
 }
