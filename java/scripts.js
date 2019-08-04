@@ -1,14 +1,3 @@
-function order(size,crust, toppings){
-    this.size =size;
-    this.crust = crust;
-    this.toppings = topping;
-    this.flavours = flavours;
-}
-var s = ["ExtraLarge" , "Large" , "Medium" , "Small" , "ExtraSmall"];
-var c = ["neopolitan","traditionalPan","focaccia", "sourDough", "thinCrust", "crackerCrust", "stuffedDough", "flatBread"];
-var t= ["Pepperoni","Mushrooms","extra cheese","","","","","","",]
-
-
 $(function () {
     $('.summary').hide();
     $('.cdata-overlay').hide();
@@ -21,12 +10,11 @@ $(function () {
         let number = $("#number").val();
         console.log(size);
 
-        //Function order
         let order = (f, s, c, t, n, total) => {
             return {f, s, c, t, n, total};
         };
 
-        //check price
+        
         let price, totalPrice;
         switch (flavour) {
             case flavour = "vegtikka":

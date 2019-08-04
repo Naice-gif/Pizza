@@ -45,12 +45,13 @@ html{
   height:20px;
 }
 
-.container{
+.menu{
   top:10%;
   left:20%;
   position:absolute;
-  background-color: white;
+  
 }
+
 .ones{
 color:white;
 font-size:20px;

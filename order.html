@@ -29,14 +29,10 @@
         <div class="form">
             <label for="old">Prefered crust:</label><br>
             <select class="control" id="old">
-                <option value="neopolitan">Neopolitan $1.5</option>
-                <option value="traditionalPan">Traditional Pan $3.5</option>
-                <option value="focaccia">Focaccia $2</option>
-                <option value="sourDough">Sour Dough $23</option>
-                <option value="thinCrust">Thin Crust $2</option>
-                <option value="crackerCrust">Cracker Crust $4.5</option>
-                <option value="stuffedDough">Stuffed Dough $5</option>
-                <option value="flatBread">Flat Bread $15</option>
+                <option value="thin">Thin Crust @ Ksh. 100</option>
+                <option value="thick">Thick Crust @ Ksh. 150</option>
+                <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                <option value="custom">Custom Crust @ sh. 280</option>
             </select>
         </div>
         <br>
@@ -46,14 +42,14 @@
         <div class="form">
             <label for="old">Prefered flavour:</label><br>
             <select class="control" id="old">
-                <option value="PistachioMortadellaPizza">Pistachio and Mortadella Pizza</option>
-                <option value="BrusselsSproutPizza">Brussels Sprout Pizza</option>
-                <option value="TacoQuesadilaPizza">Taco Quesadila Pizza</option>
-                <option value="ChickenAlfredoPizza"> Chicken Alfredo Pizza</option>
-                <option value="GrilledZucchiniPizzas">Grilled Zucchini Pizzas</option>
-                <option value="SweetRicottaPizza">Sweet Ricotta Pizza</option>
-                <option value="BuffaloChickenPizzaSticks">Buffalo Chicken Pizza Sticks</option>
-                <option value="MacaroniAndCheesePizza">Macaroni And Cheese Pizza</option>
+                <option value="vegtikka">Veg Tikka</option>
+                <option value="chickentikka">Chicken Tikka</option>
+                <option value="periperi">Peri-Peri Chicken</option>
+                <option value="bbq">BBQ Steak</option>
+                <option value="boerewors">Boerewors</option>
+                <option value="hawaiian">Hawaiian</option>
+                <option value="mushroom">Chicken and Mushroom</option>
+                <option value="regina">Regina Pizza</option>
             </select>
         </div>
         <br>
@@ -63,14 +59,19 @@
         <div class="form">
                 <label for="old">Prefered toppings:</label><br>
                 <select class="control" id="old">
-                    <option value="Pepperoni.">Pepperoni.</option>
-                    <option value="Mushrooms">Mushrooms</option>
-                    <option value="Extra cheese">Extra cheese</option>
-                    <option value="Black olives"> Black olives</option>
-                    <option value="Green peppers">Green peppers</option>
-                    <option value="Sausage">Sausage</option>
-                    <option value="cheesePepperoni">Cheese and Pepperoni</option>
-                    <option value="MacaroniAndCheese ">Macaroni And Cheese</option>
+                    <option value="tomato">Tomato @ sh. 80</option>
+                    <option value="onions">Onions @ sh. 80</option>
+                    <option value="mushroom">Mushroom @ sh. 80</option>
+                    <option value="greenpepper">Green Pepper @ sh. 80</option>
+                    <option value=""></option>
+                    <option value="olives">Olives @ sh. 120</option>
+                    <option value="pineapple">Pineapple @ sh. 120</option>
+                    <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+                    <option value="macon">Macon @ sh. 120</option>
+                    <option value="mince">Mince @ sh. 120</option>
+                    <option value=""></option>
+                    <option value="beef">Beef Peperoni @ sh. 170</option>
+                    <option value="chicken">Periperi Chicken @ sh. 170</option>
                 </select>
             </div>
         <br>
@@ -80,14 +81,12 @@
         <div class="form">
             <label for="old">Prefered size:</label><br>
             <select class="control" id="old">
-                <option value="extraLarge">Extra large</option>
-                <option value="large">Large</option>
+                <option value="regular">Regular</option>
                 <option value="medium">Medium</option>
-                <option value="small"> Small</option>
-                <option value="extraSmall">Extra small</option>
+                <option value="large">Large</option>
             </select>
         </div> 
-        
+        <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
         </div>
 
         <br>
@@ -99,6 +98,22 @@
 
          </center>
         
+<div class="order-summary" id="sum-order">
+    <h1 class="text-center" id="summary">Order Summary</h1>
+    <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+    <ol id="list" class="text-center sum">
+    </ol>
+
+
+    <div class="cdata-overlay">
+        <div class="customerdata row">
+            <div class="col-sm-3"></div>
+            <form action="" class="form-group col-sm-6 data">
+                <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+            </form> 
         
          
 
