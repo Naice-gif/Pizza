@@ -2,10 +2,6 @@ html{
     background: url
 }
 
-.container{
-    display:none;
-}
-
 #logo{
     top:10%;
     left:5%;
@@ -46,23 +42,23 @@ html{
 }
 
 .menu{
-  top:10%;
+  top:50%;
   left:20%;
   position:absolute;
-  
+  background-color: aliceblue;
 }
 
 .ones{
-color:white;
+color:black;
 font-size:20px;
 }
 
 .twos{
-  color:white;
+  color:black;
   font-size:20px;
 }
 
 .threes{
-  color:white;
+  color:black;
   font-size: 20px
 }

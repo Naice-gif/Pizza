@@ -45,3 +45,9 @@ select{
 .container{
     display:none;
   }
+input{
+    width:500px;
+    height:25px;
+    border-color:black;
+    background-color:whitesmoke;
+}
