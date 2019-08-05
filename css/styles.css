@@ -7,7 +7,7 @@
 
 .logo{
     top:0%;
-    left:10%;
+    left:5%;
     position:absolute;
     width: 40px;
     color:black;
@@ -17,7 +17,7 @@
 
 #ord a{
     top: 60%;
-    left:1%;
+    left:20%;
     color:red;
     position:absolute;
     background-color:black;
@@ -30,7 +30,7 @@
 
 #vid a{
     top: 60%;
-    left:20%;
+    left:40%;
     position:absolute;
     background-color:red;
     font-size: 30px;
@@ -76,4 +76,12 @@
 
 .container{
   display:none;
+}
+h1{
+  top:35%;  
+  position:absolute;
+  left:10%;
+  color: red;
+  background-color: black;
+  border-radius: 10px;
 }

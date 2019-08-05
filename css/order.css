@@ -1,5 +1,5 @@
 html{
-    height:100px;
+    height:1000px;
 }
 
 #logo{
@@ -10,8 +10,8 @@ html{
 }
 
 center{
-    top:100%;
-    left:5%;
+    top:80%;
+    left:10%;
     position:absolute;
 }
 button{
@@ -49,4 +49,9 @@ input{
     height:25px;
     border-color:black;
     background-color:whitesmoke;
+}
+
+.order-summary{
+    background-color: white;
+    color:black;
 }

@@ -29,14 +29,12 @@
         <div class="form">
             <label for="old">Prefered crust:</label><br>
             <select class="control" id="old">
-                <option value="thin">Thin Crust @ Ksh. 100</option>
-                <option value="thick">Thick Crust @ Ksh. 150</option>
-                <option value="flatbread">FlatBread Crust @ sh. 180</option>
-                <option value="custom">Custom Crust @ sh. 280</option>
+                <option value="thin">Thin Crust @ $. 100</option>
+                <option value="thick">Thick Crust @ $. 150</option>
+                <option value="flatbread">FlatBread Crust @ $. 180</option>
+                <option value="custom">Custom Crust @ $. 280</option>
             </select>
         </div>
-        <br>
-        <br>
         <br>
         <br>
         <div class="form">
@@ -54,28 +52,24 @@
         </div>
         <br>
         <br>
-        <br>
-        <br>
         <div class="form">
                 <label for="old">Prefered toppings:</label><br>
                 <select class="control" id="old">
-                    <option value="tomato">Tomato @ sh. 80</option>
-                    <option value="onions">Onions @ sh. 80</option>
-                    <option value="mushroom">Mushroom @ sh. 80</option>
-                    <option value="greenpepper">Green Pepper @ sh. 80</option>
+                    <option value="tomato">Tomato @ $. 80</option>
+                    <option value="onions">Onions @ $. 80</option>
+                    <option value="mushroom">Mushroom @ $. 80</option>
+                    <option value="greenpepper">Green Pepper @ $. 80</option>
                     <option value=""></option>
-                    <option value="olives">Olives @ sh. 120</option>
-                    <option value="pineapple">Pineapple @ sh. 120</option>
-                    <option value="sweetcorn">Sweet Corn @ sh. 120</option>
-                    <option value="macon">Macon @ sh. 120</option>
-                    <option value="mince">Mince @ sh. 120</option>
+                    <option value="olives">Olives @ $. 120</option>
+                    <option value="pineapple">Pineapple @ $. 120</option>
+                    <option value="sweetcorn">Sweet Corn @ $. 120</option>
+                    <option value="macon">Macon @ $. 120</option>
+                    <option value="mince">Mince @ $. 120</option>
                     <option value=""></option>
-                    <option value="beef">Beef Peperoni @ sh. 170</option>
-                    <option value="chicken">Periperi Chicken @ sh. 170</option>
+                    <option value="beef">Beef Peperoni @ $. 170</option>
+                    <option value="chicken">Periperi Chicken @ $. 170</option>
                 </select>
             </div>
-        <br>
-        <br>
         <br>
         <br>
         <div class="form">
@@ -91,24 +85,24 @@
         <label for="old">Number of pizzas:</label><br>
         <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
         </div>
-
-        <br>
         <br>
         <br>
 
     </form>
-    
+    <br>
+    <br>
     <a href="#summary">
           <button type="submit" class="btn btn-success checkout" id="checkout">
               Checkout your order
           </button>
       </a>
+  <br>
 
-         </center>
-        
 <div class="order-summary" id="sum-order">
     <h1 class="text-center" id="summary">Order Summary</h1>
+    <br>
     <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+    
     <ol id="list" class="text-center sum">
     </ol>
 
@@ -118,14 +112,19 @@
             <div class="col-sm-3"></div>
             <form action="" class="form-group col-sm-6 data">
                 <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                <br>
+                <br>
                 <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                <br>
+                <br>
                 <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                <br>
+                <br>
                 <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
             </form> 
         
-         
-
- </div>
+    </div>
+</center>
 
  <script src="js/script.js"></script>
 </body>
