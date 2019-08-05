@@ -1,9 +1,9 @@
 
 $(function () {
-    $('.summary').hide();
-    $('.cdata-overlay').hide();
+    $('.brief').hide();
+    $('.everything').hide();
 
-    $("#checkout").click(function () {
+    $("#lookup").click(function () {
         let flavour = $(".flavour option:selected").val();
         let size = $("#size option:selected").val();
         let crust = $("#crust option:selected").val();
@@ -23,37 +23,37 @@ $(function () {
                     case size = "regular":
                         price = 300;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                     case size = "medium":
                         price = 600;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                     case size = "large":
                         price = 1200;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                 }
@@ -63,37 +63,37 @@ $(function () {
                     case size = "regular":
                         price = 300;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                     case size = "medium":
                         price = 600;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                     case size = "large":
                         price = 1200;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                 }
@@ -103,37 +103,37 @@ $(function () {
                     case size = "regular":
                         price = 300;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                     case size = "medium":
                         price = 600;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                     case size = "large":
                         price = 1200;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                 }
@@ -143,37 +143,37 @@ $(function () {
                     case size = "regular":
                         price = 300;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                     case size = "medium":
                         price = 600;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                     case size = "large":
                         price = 1200;
                         if (crust === "thin") {
-                            totalPrice = (price * number) + 100;
+                            totalPrice = (price * number) + 10;
                         } else if (crust === "thick") {
-                            totalPrice = (price * number) + 150;
+                            totalPrice = (price * number) + 15;
                         } else if (crust === "flatbread") {
-                            totalPrice = (price * number) + 180;
+                            totalPrice = (price * number) + 18;
                         } else {
-                            totalPrice = (price * number) + 280;
+                            totalPrice = (price * number) + 28;
                         }
                         break;
                 };
