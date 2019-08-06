@@ -13,6 +13,9 @@ To have access on this project use the following commands: git clone https://git
 
 ## BDD
 When the user input his/her requirements,there comes a summary of what they need and the price to be paid!!
+The pages are three: The front pages which contains buttons for the menu page and the ordering platfrom, When you get to the other pages and you want to reach the front pages, all you have to do is click on the site's logo and it takes you back to the front.
+
+The javascript part is not well done and not as clean, it still needs more work.
 
 ## Known Bugs
 No Bugs
@@ -21,6 +24,7 @@ No Bugs
 *HTML and CSS VSC as text editor Github as a cloud
 *Vanilla Javascript
 *JQuery
+conditions used the switch case and the if conditions to get the price for the ordered pizza.
 *etc
 
 
