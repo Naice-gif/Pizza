@@ -9,7 +9,7 @@ La casa de pizza project is an independent project where one is required to use 
 Github Terminal Visual Code
 
 ## Project setup instructions
-To have access on this project use the following commands: git clone https://github.com/Naice-gif/Delani-Studio-project
+To have access on this project use the following commands: git clone https://github.com/Naice-gif/Pizza
 
 ## BDD
 When the user input his/her requirements,there comes a summary of what they need and the price to be paid!!
@@ -25,8 +25,7 @@ No Bugs
 
 
 ## Support and contact details
-Problems,questions,ideas or advice;find me on https://github.com/Naice-gif/Delani-Studio-project
-
+Problems,questions,ideas or advice;find me on https://github.com/Naice-gif/Pizza
 Approved by Moringa School
 
 Copyright@Naice2019
