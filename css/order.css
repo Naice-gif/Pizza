@@ -10,7 +10,7 @@ html{
 }
 
 center{
-    top:80%;
+    top:70%;
     left:10%;
     position:absolute;
 }
@@ -53,5 +53,5 @@ input{
 
 .order-summary{
     background-color: white;
-    color:black;
+    color:white;
 }

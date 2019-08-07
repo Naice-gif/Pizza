@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/order.css">
+    <script src="java/jquery-3.4.1.js"></script>
+    <script src="java/scripts.js"></script>
 </head>
 <body>
         <div class="container">
@@ -28,66 +30,75 @@
         <br>
         <div class="form">
             <label for="old">Prefered crust:</label><br>
-            <select class="control" id="old">
-                <option value="thin">Thin Crust </option>
-                <option value="thick">Thick Crust </option>
-                <option value="flatbread">FlatBread Crust </option>
-                <option value="custom">Custom Crust</option>
+            <select class="control" id="crust">
+                <option >thin crust</option>
+                <option >thick crust</option>
+                <option >FlatBread crust</option>
+                <option >Custom crust</option>
             </select>
         </div>
         <br>
         <br>
         <div class="form">
                 <label for="old">Prefered toppings:</label><br>
-                <select class="control" id="old">
-                    <option value="tomato">Tomato </option>
-                    <option value="onions">Onions </option>
-                    <option value="mushroom">Mushroom </option>
-                    <option value="greenpepper">Green Pepper </option>
-                    <option value="olives">Olives </option>
-                    <option value="beef">Beef Peperoni </option>
-                    <option value="chicken">Periperi Chicken </option>
+                <select class="control" id="toppings">
+                    <option>Sausage, caramelized onions,fennel</option>
+                    <option >Sardines, red onions, and black olives</option>
+                    <option>BBQ sauce, grilled chicken</option>
+                    <option >corned beef pastrami,Swiss cheese</option>
+                    <option >Corn , spicy Italian salami</option>
+                    <option >Buffalo chicken, blue cheese</option>
                 </select>
             </div>
         <br>
         <br>
         <div class="form">
             <label for="old">Prefered size:</label><br>
-            <select class="control" id="old">
-                <option value="regular">Regular</option>
-                <option value="medium">Medium</option>
-                <option value="large">Large</option>
+            <select class="control" id="size">
+                <option >Regular</option>
+                <option >Medium</option>
+                <option >Large</option>
             </select>
         </div> 
         <br>
         <br>
-        <label for="old">Number of pizzas:</label><br>
-        <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+        <label for="number">Number:</label><br>
+        <input type="number" class="form-control" id="num" placeholder="Number of pizzas" min="1" required>
         </div>
-        <br>
-        <br>
-
-    </form>
     <br>
     <br>
     <a href="#brief">
-          <button type="submit" class="btn btn-success checkout" id="lookup">
-              Checkout your order
-          </button>
-      </a>
-  <br>
+          <button type="submit" class="btn btn-success checkout" id="lookup"> Order: </button></a>
+   <br>
+   <div class="form-group">
+        <button type="button" class="btn btn-dark mb-2 mr-sm-2" id="submitRes">Submit</button>
+   </div>
+    <div id="briefs">
+    <div class="totals">
+        <h5>Order(s):</h5>
+        <ol id="orders">
 
-<div class="order-summary" id="sum-order">
-    <h1 class="text-center" id="summary">Order Summary</h1>
-    <br>
-    <h2 class="brief-center">Hello there, your order is as follows:</h2>
-    
-    <ol id="list" class="sum">
-    </ol>
+        </ol>
+    </div>
+    <div class="sum">
+        <h5>Cost(s): </h5>
+        <ol id="costs">
 
-</center>
+        </ol>
+    </div>
+</div>
+<div class="form-group">
+    <button type="button" class="btn btn-secondary" id="chover">Deliver</button>
+</div>
+<br>
+<button type="button" class="btn btn-dark" id="checkout">Final Price</button>
+<h4 id="totals">The total price is: </h4>
+</div>
+</div> 
+</div>
+</div>  
 
-<script src="js/jquery.js"></script>
-<script src="js/script.js"></script>
+</center>     
+
 </body>
 </html>
